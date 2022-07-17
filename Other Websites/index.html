@@ -53,6 +53,9 @@
         .psw{
             top: 72.5vh;
         }
+        .calc{
+            top: 85vh;
+        }
         #nav-container{
                 position: absolute;
                 top: 0%;
@@ -100,17 +103,21 @@
     <div class="link psw">
         <h3 class="name psw">Password Maker</h3>
     </div>
+    <div class="link calc">
+        <h3 class="name calc">Calculator</h3>
+    </div>
     <script>
         cg = document.getElementsByClassName("link cg")[0]
         dvd = document.getElementsByClassName("link dvd")[0]
         time = document.getElementsByClassName("link time")[0]
         gdnt = document.getElementsByClassName("link gdnt")[0]
         psw = document.getElementsByClassName("link psw")[0]
+        calc = document.getElementsByClassName("link calc")[0]
         cg.onclick = function(){
             location.href ="https://clickergame.gq"
         }
         dvd.onclick = function(){
-            location.href = "https://dvdlogo.ml/"
+            location.href ="https://dvdlogo.ml/"
         }
         time.onclick = function(){
             location.href ="https://timebykarthik.ml"
@@ -120,6 +127,9 @@
         }
         psw.onclick = function(){
             location.href ="https://passwordmaker.ml"
+        }
+        calc.onclick = function(){
+            location.href ="https://calcbykarthik.netlify.app"
         }
     </script>
 </body>
