@@ -35,6 +35,8 @@
             }
             body{
                 height: 75%;
+                display: flex;
+                align-items: center;
             }
             #nav-container{
                 position: absolute;
@@ -50,7 +52,7 @@
             #name{
                 transform: translateY(-5vh);
                 position: absolute;
-                left: 15vw;
+                left: 12.5vw;
                 font-size: 8vh;
                 background: black;
                 -webkit-background-clip: text;
@@ -65,7 +67,7 @@
             #about-title{
                 transform: translateY(3vh);
                 position: absolute;
-                left: 17vw;
+                left: 15.5vw;
                 font-size: 4vh;
                 background: black;
                 -webkit-background-clip: text;
@@ -76,6 +78,11 @@
             }
             #about-inner{
                 color: rgb(224,0,0);
+            }
+            img{
+                width: 40vw;
+                position: absolute;
+                right: 0%;
             }
             #nav{
                 display: grid;
@@ -131,6 +138,15 @@
                 #header {
                     display: none;
                 }
+                img{
+                    display: none;
+                }
+                #name{
+                    font-size: 5vh;
+                }
+                #about{
+                    font-size: 2.5vh;
+                }
             }
 
         </style>
@@ -151,6 +167,7 @@
         <span id="name">Hi there! I'm <span id="name-inner">Karthik PK</span></span>
         <span id="about-title">I'm a <span id="about-inner">11</span> year old programmer</span>
         <h2></h2>
+        <img src="img.png" alt="">
         <script>
             hid = document.getElementsByClassName("india")[0]
             nav = document.getElementById("nav-container")
