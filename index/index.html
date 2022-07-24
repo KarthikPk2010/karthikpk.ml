@@ -59,6 +59,24 @@
                 color: transparent;
                 font-family: 'Varela', sans-serif;
             }
+            #name-inner{
+                color: rgb(224, 0, 0);
+            }
+            #about-title{
+                transform: translateY(3vh);
+                position: absolute;
+                left: 22vw;
+                font-size: 4vh;
+                background: black;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                font-family: 'Varela', sans-serif;
+            }
+            #about-inner{
+                color: rgb(224,0,0);
+            }
             #nav{
                 display: grid;
                 place-items: center;
@@ -130,7 +148,8 @@
                 <a href="https://otherlinks.karthikpk.ml" id="otherlinks">Other Links</a>
             </nav>
         </div>
-        <span id="name">Hi there,<br/>I'm Karthik PK</span>
+        <span id="name">Hi there! I'm <span id="name-inner">Karthik PK</span></span>
+        <span id="about-title">I'm a <span id="about-inner">11</span> year old programmer</span>
         <h2></h2>
         <script>
             hid = document.getElementsByClassName("india")[0]
